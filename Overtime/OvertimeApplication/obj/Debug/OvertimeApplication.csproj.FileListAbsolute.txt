@@ -50,12 +50,10 @@ E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\En
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\MaterialDesignThemes.Wpf.pdb
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\MaterialDesignThemes.Wpf.xml
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\OvertimeApplication.csprojResolveAssemblyReference.cache
-E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\MainWindow.g.cs
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\App.g.cs
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\OvertimeApplication_MarkupCompile.cache
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\OvertimeApplication_MarkupCompile.lref
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\App.baml
-E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\MainWindow.baml
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\OvertimeApplication.g.resources
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\OvertimeApplication.Properties.Resources.resources
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\OvertimeApplication.csproj.GenerateResource.Cache
@@ -90,3 +88,13 @@ C:\Users\Irfan\source\repos\Git\Overtime-Application-Code-First-WPF\Overtime\Ove
 C:\Users\Irfan\source\repos\Git\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\OvertimeApplication.csproj.CopyComplete
 C:\Users\Irfan\source\repos\Git\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserControl\Parameter.g.cs
 C:\Users\Irfan\source\repos\Git\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserControl\Parameter.baml
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserControlEmployee\Parameter.g.cs
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserInterface\MainWindow.g.cs
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserControlEmployee\Parameter.baml
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserInterface\MainWindow.baml
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserControlEmployee\UCCreateForm.g.cs
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserInterface\UIDashboardEmployee.g.cs
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserControlEmployee\UCCreateForm.baml
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserInterface\UIDashboardEmployee.baml
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserControlEmployee\UCDashboardEmployee.g.cs
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserControlEmployee\UCDashboardEmployee.baml

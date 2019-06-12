@@ -73,10 +73,27 @@
     <Compile Include="UserControlEmployee\Parameter.xaml.cs">
       <DependentUpon>Parameter.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserControlEmployee\UCCreateForm.xaml.cs">
+      <DependentUpon>UCCreateForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControlEmployee\UCDashboardEmployee.xaml.cs">
+      <DependentUpon>UCDashboardEmployee.xaml</DependentUpon>
+    </Compile>
     <Compile Include="UserInterface\Dashboard.xaml.cs">
       <DependentUpon>Dashboard.xaml</DependentUpon>
     </Compile>
+    <Compile Include="UserInterface\UIDashboardEmployee.xaml.cs">
+      <DependentUpon>UIDashboardEmployee.xaml</DependentUpon>
+    </Compile>
     <Page Include="UserControlEmployee\Parameter.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlEmployee\UCCreateForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControlEmployee\UCDashboardEmployee.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -93,6 +110,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="UserInterface\Dashboard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserInterface\UIDashboardEmployee.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
