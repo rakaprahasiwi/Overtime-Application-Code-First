@@ -111,7 +111,7 @@
                     <materialDesign:PackIcon Kind="InformationOutline" Width="40" Height="40"/>
                 </Button>
             </StackPanel>
-            <ListView>
+            <ListView x:Name="ListViewMenu" Foreground="#FF5C99D6" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ListViewMenu_SelectionChanged">
                 <ListViewItem x:Name="listViewItem" Height="60" RenderTransformOrigin="0.5,0.5">
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
@@ -198,34 +198,7 @@
                 <ColumnDefinition Width="250"/>
             </Grid.ColumnDefinitions>
 
-            <Grid Grid.Column="1" Background="#FF3580BF">
-                
-                <Ellipse Height="100" Width="100" VerticalAlignment="Top" HorizontalAlignment="Right" Margin="20 100" Stroke="White">
-                    <Ellipse.Fill>
-                        <ImageBrush ImageSource="/Assets/pexels-photo-247885.jpeg" Stretch="UniformToFill"/>
-                    </Ellipse.Fill>
-                </Ellipse>
-                <TextBlock Text="John" Foreground="White" FontSize="28" FontFamily="Nirmala UI Semilight" Margin="10 100" VerticalAlignment="Top"/>
-                <StackPanel Margin="0 150">
-                    <Grid Height="60" Margin="20 50 20 0">
-                        <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="*"/>
-                        </Grid.ColumnDefinitions>
-                        <Grid.RowDefinitions>
-                            <RowDefinition Height="30"/>
-                            <RowDefinition Height="30"/>
-                        </Grid.RowDefinitions>
-                        <TextBlock Text="FOLLOWERS" VerticalAlignment="Bottom" Foreground="#FFFBFBFB" Margin="5,0,5,5"/>
-                        <TextBlock Text="1.5K" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="10 0"/>
-
-                        <TextBlock Text="FOLLOWING" VerticalAlignment="Bottom" Foreground="#FFFBFBFB" Margin="5,0,5,5" Grid.Column="1"/>
-                        <TextBlock Text="2.3K" VerticalAlignment="Top" Foreground="#FFFBFBFB" Grid.Row="1" Margin="10 0" Grid.Column="1"/>
-                    </Grid>
-
-                    <TextBlock TextWrapping="Wrap" Margin="10" Foreground="#FFFBFBFB" FontSize="14">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus consequat ligula et ornare rutrum. Suspendisse vel nibh massa. Sed maximus porta augue eget viverra. Sed ullamcorper interdum ligula. Aenean vitae.</TextBlock>
-                </StackPanel>
-            </Grid>
+            
             <Grid>
                 <Grid.RowDefinitions>
                     <RowDefinition Height="40"/>
@@ -234,11 +207,6 @@
                     <RowDefinition Height="*"/>
                     <RowDefinition Height="*"/>
                 </Grid.RowDefinitions>
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                    <ColumnDefinition Width="*"/>
-                </Grid.ColumnDefinitions>
 
                 <Button x:Name="ButtonCloseMenu" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5" Click="ButtonCloseMenu_Click" Visibility="Collapsed">
                     <materialDesign:PackIcon Kind="Menu" Foreground="#FF3580BF"/>
@@ -246,50 +214,7 @@
                 <Button x:Name="ButtonOpenMenu" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5" Click="ButtonOpenMenu_Click">
                     <materialDesign:PackIcon Kind="Menu" Foreground="#FF3580BF"/>
                 </Button>
-
-
                 <TextBlock Text="PHOTOS" Foreground="#FF3580BF" FontSize="30" FontWeight="Bold" Margin="5" Grid.Row="1"/>
-
-                <Grid Margin="5" Grid.Row="2" Grid.Column="0">
-                    <Grid.Effect>
-                        <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
-                    </Grid.Effect>
-                    <Image Source="/Assets/pexels-photo-374592.jpeg" Stretch="UniformToFill"/>
-                    <StackPanel Orientation="Horizontal" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Bottom">
-                        <materialDesign:PackIcon Kind="Heart" Foreground="#FFFBFBFB"/>
-                        <TextBlock Text="25" Foreground="#FFFBFBFB"/>
-                    </StackPanel>
-                </Grid>
-                <Grid Margin="5" Grid.Row="2" Grid.Column="1">
-                    <Grid.Effect>
-                        <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
-                    </Grid.Effect>
-                    <Image Source="/Assets/pexels-photo-701026.jpeg" Stretch="UniformToFill"/>
-                    <StackPanel Orientation="Horizontal" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Bottom">
-                        <materialDesign:PackIcon Kind="Heart" Foreground="#FFFBFBFB"/>
-                        <TextBlock Text="50" Foreground="#FFFBFBFB"/>
-                    </StackPanel>
-                </Grid>
-                <Grid Margin="5" Grid.Row="2" Grid.Column="2">
-                    <Grid.Effect>
-                        <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
-                    </Grid.Effect>
-                    <Image Source="/Assets/pexels-photo-701762.jpeg" Stretch="UniformToFill"/>
-                    <StackPanel Orientation="Horizontal" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Bottom">
-                        <materialDesign:PackIcon Kind="Heart" Foreground="#FFFBFBFB"/>
-                        <TextBlock Text="18" Foreground="#FFFBFBFB"/>
-                    </StackPanel>
-                </Grid>
-                <Grid Margin="5" Grid.Row="3" Grid.Column="0">
-                    <Grid.Effect>
-                        <DropShadowEffect BlurRadius="20" Color="#FFEEEEEE" ShadowDepth="1"/>
-                    </Grid.Effect>
-                    <Image Source="/Assets/pexels-photo-701337.jpeg" Stretch="UniformToFill"/>
-                    <StackPanel Orientation="Horizontal" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Bottom">
-                        <materialDesign:PackIcon Kind="Heart" Foreground="#FFFBFBFB"/>
-                        <TextBlock Text="32" Foreground="#FFFBFBFB"/>
-                    </StackPanel>
-                </Grid>
             </Grid>
         </Grid>
         <StackPanel Orientation="Horizontal" VerticalAlignment="Top" Height="40" HorizontalAlignment="Right" Margin="10">

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OvertimeApplication.UserControl;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -39,6 +40,31 @@ namespace OvertimeApplication.UserInterface
         {
             ButtonOpenMenu.Visibility = Visibility.Visible;
             ButtonCloseMenu.Visibility = Visibility.Collapsed;
+        }
+
+        private void ListViewMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            GridMain.Children.Clear();
+
+            System.Windows.Controls.UserControl usc = null;
+            switch (((ListViewItem)((ListView)sender).SelectedItem).Name)
+            {
+                case "ItemDashboard":
+                    usc = new Parameter();
+                    GridMain.Children.Add(usc);
+                    break;
+                //case "ItemProject":
+                //    usc = new Project();
+                //    GridMain.Children.Add(usc);
+                //    break;
+                //case "ItemTask":
+                //    usc = new Task();
+                //    GridMain.Children.Add(usc);
+                //    break;
+
+                default:
+                    break;
+            }
         }
     }
 }
