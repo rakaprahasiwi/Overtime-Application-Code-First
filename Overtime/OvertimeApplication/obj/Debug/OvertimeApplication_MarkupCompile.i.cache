@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Irfan\source\repos\Git\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\
 OvertimeApplication
 none
 false
 DEBUG;TRACE
-C:\Users\Irfan\source\repos\Git\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\App.xaml
-3778422230
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\App.xaml
+6-923126532
 
-11-1956729268
-18722401524
-UserControlEmployee\Parameter.xaml;UserInterface\MainWindow.xaml;UserInterface\Dashboard.xaml;
+14-335900708
+18196317738
+UserControlEmployee\Parameter.xaml;UserControlEmployee\UCCreateForm.xaml;UserControlEmployee\UCDashboardEmployee.xaml;UserInterface\MainWindow.xaml;UserInterface\Dashboard.xaml;UserInterface\UIDashboardEmployee.xaml;
 
-True
+False
 
