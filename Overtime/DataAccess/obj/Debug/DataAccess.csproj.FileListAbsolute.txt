@@ -41,3 +41,4 @@ E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\obj\Debug\DataAccess.
 E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
 E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\obj\Debug\DataAccess.exe
 E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\obj\Debug\DataAccess.pdb
+E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\obj\Debug\DataAccess.Migrations.OvertimeMigration1.resources

@@ -104,3 +104,9 @@ E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\Ov
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\OvertimeApplication.pdb
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserControlEmployee\UCParameterHR.g.cs
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\UserControlEmployee\UCParameterHR.baml
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\DataAccess.exe
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\Core.exe
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\DataAccess.pdb
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\Core.pdb
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\Common.exe
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\Common.pdb

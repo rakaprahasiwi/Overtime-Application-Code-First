@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Model
 {
+    [Table("TB_M_ActivityOvertime")]
     public class ActivityOvertime : BaseModel
     {
         public ActivityOvertime() { }

@@ -55,6 +55,7 @@
     <Compile Include="Repository\Application\ActivityOvertimeRepository.cs" />
     <Compile Include="Repository\Application\DataOvertimeRepository.cs" />
     <Compile Include="Repository\Application\EmployeeRepository.cs" />
+    <Compile Include="Repository\Application\LoginRepository.cs" />
     <Compile Include="Repository\Application\ParameterRepository.cs" />
     <Compile Include="Repository\Application\TypeOvertimeRepository.cs" />
     <Compile Include="Repository\IActivityOvertime.cs" />
