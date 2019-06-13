@@ -10,3 +10,17 @@ C:\Users\Irfan\source\repos\OvertimeApplication\Common\obj\Debug\Common.csproj.C
 C:\Users\Irfan\source\repos\OvertimeApplication\Common\obj\Debug\Common.csproj.CopyComplete
 C:\Users\Irfan\source\repos\OvertimeApplication\Common\obj\Debug\Common.exe
 C:\Users\Irfan\source\repos\OvertimeApplication\Common\obj\Debug\Common.pdb
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\bin\Debug\Common.exe.config
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\bin\Debug\Common.exe
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\bin\Debug\Common.pdb
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\bin\Debug\Core.exe
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\bin\Debug\DataAccess.exe
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\bin\Debug\EntityFramework.dll
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\bin\Debug\EntityFramework.SqlServer.dll
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\bin\Debug\Core.pdb
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\bin\Debug\DataAccess.pdb
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\bin\Debug\EntityFramework.xml
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\bin\Debug\EntityFramework.SqlServer.xml
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\obj\Debug\Common.csprojResolveAssemblyReference.cache
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\obj\Debug\Common.exe
+E:\Overtime-Application-Code-First-WPF\Overtime\Common\obj\Debug\Common.pdb

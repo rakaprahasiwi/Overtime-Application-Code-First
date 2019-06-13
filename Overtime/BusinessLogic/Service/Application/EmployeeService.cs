@@ -27,5 +27,10 @@ namespace BusinessLogic.Service.Application
         {
             return iEmployee.GetSearch(values);
         }
+
+        public List<Employee> GetSearchAdmin(string values)
+        {
+            return iEmployee.GetSearchAdmin(values);
+        }
     }
 }

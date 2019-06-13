@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\App.xaml
-6-923126532
+9-327006345
 
-14-335900708
+171278910157
 18196317738
-UserControlEmployee\Parameter.xaml;UserControlEmployee\UCCreateForm.xaml;UserControlEmployee\UCDashboardEmployee.xaml;UserInterface\MainWindow.xaml;UserInterface\Dashboard.xaml;UserInterface\UIDashboardEmployee.xaml;
+UserControlEmployee\UCCreateForm.xaml;UserControlEmployee\UCCreateOvertimeHR.xaml;UserControlEmployee\UCDashboardEmployee.xaml;UserControlEmployee\UCDashboardHR.xaml;UserControlEmployee\UCListApproveOvertimeForm.xaml;UserControlEmployee\UCParameterHR.xaml;UserInterface\MainWindow.xaml;UserInterface\Dashboard.xaml;UserInterface\UIDashboardEmployee.xaml;
 
 True
 

@@ -54,6 +54,7 @@ namespace DataAccess.Migrations
                         Id = c.Int(nullable: false, identity: true),
                         NIK = c.Int(nullable: false),
                         Name_Employee = c.String(),
+                        Role = c.Boolean(nullable: false),
                         Salary_Employee = c.Double(nullable: false),
                         Email_Employee = c.String(),
                         Password_Employee = c.String(),

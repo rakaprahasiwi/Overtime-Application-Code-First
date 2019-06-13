@@ -28,7 +28,9 @@ namespace OvertimeApplication
 
         private void Button_Click(object sender, RoutedEventArgs e)
         {
-            UIDashboardEmployee dashboard = new UIDashboardEmployee();
+            //UIDashboardEmployee dashboard = new UIDashboardEmployee();
+            //dashboard.Show();
+            Dashboard dashboard = new Dashboard();
             dashboard.Show();
         }
     }

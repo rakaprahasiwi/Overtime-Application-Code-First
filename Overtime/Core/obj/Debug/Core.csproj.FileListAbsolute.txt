@@ -18,3 +18,12 @@ E:\OA\OvertimeApplication\Overtime\Core\bin\Debug\EntityFramework.xml
 E:\OA\OvertimeApplication\Overtime\Core\bin\Debug\EntityFramework.SqlServer.xml
 E:\OA\OvertimeApplication\Overtime\Core\obj\Debug\Core.exe
 E:\OA\OvertimeApplication\Overtime\Core\obj\Debug\Core.pdb
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Core.exe.config
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Core.exe
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Core.pdb
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\EntityFramework.dll
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\EntityFramework.SqlServer.dll
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\EntityFramework.xml
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\EntityFramework.SqlServer.xml
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\obj\Debug\Core.exe
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\obj\Debug\Core.pdb
