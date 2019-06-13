@@ -186,5 +186,15 @@
     <Resource Include="Assets\overtime.png" />
     <Resource Include="Assets\overtimebg.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj">
+      <Project>{36D29AB4-8954-4A50-B742-12071D0208C6}</Project>
+      <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAccess\DataAccess.csproj">
+      <Project>{C0852CF9-3A69-4ED5-ACBE-499E28E2C070}</Project>
+      <Name>DataAccess</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
