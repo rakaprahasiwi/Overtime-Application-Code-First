@@ -10,7 +10,7 @@ namespace DataAccess.ViewModels
     {
         public EmployeeVM() { }
 
-        public EmployeeVM(int nik, string name_employee, double salary_employee, string email_employee, string password_employee)
+        public EmployeeVM(int nik, string name_employee, double salary_employee, bool Role, string email_employee, string password_employee)
         {
             this.NIK = nik;
             this.Name_Employee = name_employee;
@@ -23,6 +23,7 @@ namespace DataAccess.ViewModels
         public int NIK { get; set; }
         public string Name_Employee { get; set; }
         public double Salary_Employee { get; set; }
+        public bool Role { get; set; }
         public string Email_Employee { get; set; }
         public string Password_Employee { get; set; }
     }

@@ -51,9 +51,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\MyContext.cs" />
-    <Compile Include="Migrations\201906100956200_OvertimeMigration.cs" />
-    <Compile Include="Migrations\201906100956200_OvertimeMigration.Designer.cs">
-      <DependentUpon>201906100956200_OvertimeMigration.cs</DependentUpon>
+    <Compile Include="Migrations\201906130124181_OvertimeApplication.cs" />
+    <Compile Include="Migrations\201906130124181_OvertimeApplication.Designer.cs">
+      <DependentUpon>201906130124181_OvertimeApplication.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\ActivityOvertime.cs" />
@@ -80,8 +80,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201906100956200_OvertimeMigration.resx">
-      <DependentUpon>201906100956200_OvertimeMigration.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201906130124181_OvertimeApplication.resx">
+      <DependentUpon>201906130124181_OvertimeApplication.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

@@ -25,6 +25,12 @@ namespace Common.Repository.Application
             return get;
         }
 
+        public List<Employee> GetSearchAdmin(string values)
+        {
+            var get = myContext.Employees.Where(x => (x.Name_Employee.Contains(values) || x.Id.ToString().Contains(values) || x.NIK.ToString().Contains(values) || x.Salary_Employee.ToString().Contains(values) || x.Email_Employee.Contains(values)) && x.IsDelete == false && x.Role == true).ToList();
+            return get;
+        }
+
         public List<Employee> GetSearch(string values)
         {
             var get = myContext.Employees.Where(x => (x.Name_Employee.Contains(values) || x.Id.ToString().Contains(values) || x.NIK.ToString().Contains(values) || x.Salary_Employee.ToString().Contains(values) || x.Email_Employee.Contains(values)) && x.IsDelete == false).ToList();

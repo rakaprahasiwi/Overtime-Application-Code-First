@@ -13,5 +13,6 @@ namespace Common.Repository
         List<Employee> Get();
         List<Employee> GetSearch(string values);
         Employee Get(int id);
+        List<Employee> GetSearchAdmin(string values);
     }
 }

@@ -3,7 +3,7 @@ namespace DataAccess.Migrations
     using System;
     using System.Data.Entity.Migrations;
     
-    public partial class OvertimeMigration : DbMigration
+    public partial class OvertimeApplication : DbMigration
     {
         public override void Up()
         {
@@ -55,6 +55,7 @@ namespace DataAccess.Migrations
                         NIK = c.Int(nullable: false),
                         Name_Employee = c.String(),
                         Salary_Employee = c.Double(nullable: false),
+                        Role = c.Boolean(nullable: false),
                         Email_Employee = c.String(),
                         Password_Employee = c.String(),
                         CreateDate = c.DateTimeOffset(nullable: false, precision: 7),

@@ -17,6 +17,7 @@ namespace DataAccess.Model
         public int NIK { get; set; }
         public string Name_Employee { get; set; }
         public double Salary_Employee { get; set; }
+        public bool Role { get; set; }
         public string Email_Employee { get; set; }
         public string Password_Employee { get; set; }
 
@@ -25,6 +26,7 @@ namespace DataAccess.Model
             this.NIK = employeeVM.NIK;
             this.Name_Employee = employeeVM.Name_Employee;
             this.Salary_Employee = employeeVM.Salary_Employee;
+            this.Role = employeeVM.Role;
             this.Email_Employee = employeeVM.Email_Employee;
             this.Password_Employee = employeeVM.Password_Employee;
         }

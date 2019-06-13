@@ -70,13 +70,34 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="UserControlEmployee\Parameter.xaml.cs">
-      <DependentUpon>Parameter.xaml</DependentUpon>
+    <Compile Include="UserControl\UCCreateOvertimeHR.xaml.cs">
+      <DependentUpon>UCCreateOvertimeHR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCListApproveOvertimeForm.xaml.cs">
+      <DependentUpon>UCListApproveOvertimeForm.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCDashboardHR.xaml.cs">
+      <DependentUpon>UCDashboardHR.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UCParameterHR.xaml.cs">
+      <DependentUpon>UCParameterHR.xaml</DependentUpon>
     </Compile>
     <Compile Include="UserInterface\Dashboard.xaml.cs">
       <DependentUpon>Dashboard.xaml</DependentUpon>
     </Compile>
-    <Page Include="UserControlEmployee\Parameter.xaml">
+    <Page Include="UserControl\UCCreateOvertimeHR.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UCListApproveOvertimeForm.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UCDashboardHR.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="UserControl\UCParameterHR.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -139,6 +160,12 @@
   <ItemGroup>
     <Resource Include="Assets\back.jpg" />
     <Resource Include="Assets\pexels-photo-247885.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\overtime.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Assets\overtimebg.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

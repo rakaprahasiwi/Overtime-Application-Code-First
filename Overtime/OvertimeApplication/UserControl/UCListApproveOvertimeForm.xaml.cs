@@ -1,4 +1,5 @@
-﻿using System;
+﻿using OvertimeApplication.UserControl;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -13,16 +14,26 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace OvertimeApplication.UserControl
+namespace OvertimeApplication.UserControlEmployee
 {
     /// <summary>
-    /// Interaction logic for Parameter.xaml
+    /// Interaction logic for ListApproveOvertimeForm.xaml
     /// </summary>
-    public partial class Parameter : System.Windows.Controls.UserControl
+    public partial class ListApproveOvertimeForm : System.Windows.Controls.UserControl
     {
-        public Parameter()
+        public ListApproveOvertimeForm()
         {
             InitializeComponent();
         }
+
+        private void ButtonClose_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
+
+        
+       
+
+        
     }
 }

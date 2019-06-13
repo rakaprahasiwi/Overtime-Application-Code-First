@@ -7,13 +7,13 @@ namespace DataAccess.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.2.0-61023")]
-    public sealed partial class OvertimeMigration : IMigrationMetadata
+    public sealed partial class OvertimeApplication : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(OvertimeMigration));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(OvertimeApplication));
         
         string IMigrationMetadata.Id
         {
-            get { return "201906100956200_OvertimeMigration"; }
+            get { return "201906130124181_OvertimeApplication"; }
         }
         
         string IMigrationMetadata.Source

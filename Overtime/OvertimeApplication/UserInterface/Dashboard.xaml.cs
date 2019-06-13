@@ -1,4 +1,5 @@
 ﻿using OvertimeApplication.UserControl;
+using OvertimeApplication.UserControlEmployee;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -49,18 +50,22 @@ namespace OvertimeApplication.UserInterface
             System.Windows.Controls.UserControl usc = null;
             switch (((ListViewItem)((ListView)sender).SelectedItem).Name)
             {
-                case "ItemDashboard":
+                case "Parameter":
                     usc = new Parameter();
                     GridMain.Children.Add(usc);
                     break;
-                //case "ItemProject":
-                //    usc = new Project();
-                //    GridMain.Children.Add(usc);
-                //    break;
-                //case "ItemTask":
-                //    usc = new Task();
-                //    GridMain.Children.Add(usc);
-                //    break;
+                case "CreateOvertime":
+                    usc = new CreateOvertime();
+                    GridMain.Children.Add(usc);
+                    break;
+                case "ListSubmissionOvertime":
+                    usc = new ListSubmissionOvertime();
+                    GridMain.Children.Add(usc);
+                    break;
+                case "ListApproveOvertimeForm":
+                    usc = new ListApproveOvertimeForm();
+                    GridMain.Children.Add(usc);
+                    break;
 
                 default:
                     break;
