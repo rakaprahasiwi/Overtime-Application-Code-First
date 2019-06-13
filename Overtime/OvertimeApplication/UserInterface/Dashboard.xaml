@@ -95,7 +95,7 @@
                             <Button Content="Account"/>
                             <Button Content="Help"/>
                             <Separator/>
-                            <Button Content="Logout"/>
+                            <Button Content="Logout" Click="Button_Click"/>
                         </StackPanel>
                     </materialDesign:PopupBox>
                 </Button>

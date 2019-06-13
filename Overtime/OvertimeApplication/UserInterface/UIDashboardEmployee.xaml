@@ -86,7 +86,7 @@
                             <Button Content="Account"/>
                             <Button Content="Help"/>
                             <Separator/>
-                            <Button Content="Logout"/>
+                            <Button Content="Logout" Click="Button_Click_Logout"/>
                         </StackPanel>
                     </materialDesign:PopupBox>
                 </Button>
@@ -166,7 +166,7 @@
                 <Button x:Name="ButtonOpenMenu" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="30" Height="30" Padding="0" Background="{x:Null}" BorderBrush="{x:Null}" VerticalAlignment="Top" HorizontalAlignment="Left" Margin="5" Click="ButtonOpenMenu_Click">
                     <materialDesign:PackIcon Kind="Menu" Foreground="#FF3580BF"/>
                 </Button>
-                <TextBlock Text="Overtime Application Employee" Foreground="#FF3580BF" FontSize="30" FontWeight="Bold" Margin="321,0,76,127" Grid.Row="4"/>
+                <TextBlock Text="Overtime Application Employee" Foreground="#FF3580BF" FontSize="30" FontWeight="Bold" Margin="365,0,32,127" Grid.Row="4"/>
             </Grid>
             <Image HorizontalAlignment="Left" Height="325" Margin="408,84,0,0" VerticalAlignment="Top" Width="281" Source="/OvertimeApplication;component/Assets/overtime.png"/>
         </Grid>

@@ -18,6 +18,7 @@ namespace DataAccess.Model
         public DateTimeOffset End_Overtime { get; set; }
         public string Attachment_Overtime { get; set; }
         public string Status_Overtime { get; set; }
+        public string Name_Submited { get; set; }
 
         [ForeignKey("TypeOvertime")]
         public int Type_Id { get; set; }
@@ -36,6 +37,7 @@ namespace DataAccess.Model
             this.Attachment_Overtime = dataOvertimeVM.Attachment_Overtime;
             this.Status_Overtime = dataOvertimeVM.Status_Overtime;
             this.CreateDate = DateTimeOffset.Now.ToLocalTime();
+            this.Name_Submited = dataOvertimeVM.Name_Submited;
         }
 
         public void Update (int id, DataOvertimeVM dataOvertimeVM)
@@ -48,6 +50,7 @@ namespace DataAccess.Model
             this.Attachment_Overtime = dataOvertimeVM.Attachment_Overtime;
             this.Status_Overtime = dataOvertimeVM.Status_Overtime;
             this.UpdateDate = DateTimeOffset.Now.ToLocalTime();
+            this.Name_Submited = dataOvertimeVM.Name_Submited;
         }
 
         public void Delete()

@@ -18,45 +18,103 @@
         </Grid.RenderTransform>
 
         <Grid >
-
-            <TextBlock Text="CREATE FORM" Foreground="#FF3580BF" FontSize="30" FontWeight="Bold" Margin="5,5,0,10"/>
-
-            <TextBlock x:Name="textBlock_nik" HorizontalAlignment="Left" Margin="20,103,0,0" TextWrapping="Wrap" Text="NIK" VerticalAlignment="Top" Height="19" Width="55"/>
-            <TextBox x:Name="textBox_nik" HorizontalAlignment="Left" Height="28" Margin="127,93,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="172"/>
-            <TextBlock x:Name="textBlock_name" HorizontalAlignment="Left" Margin="20,131,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Height="22" Width="32"/>
-            <TextBox x:Name="textBox_name" HorizontalAlignment="Left" Height="31" Margin="127,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
-            <TextBlock x:Name="textBlock_Date" HorizontalAlignment="Left" Margin="20,160,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Height="21" Width="25"/>
-            <TextBlock x:Name="textBlock_StartTime" HorizontalAlignment="Left" Margin="20,188,0,0" TextWrapping="Wrap" Text="Start Time" VerticalAlignment="Top" Height="21" Width="77"/>
-            <TextBox x:Name="textBox_StartTime" HorizontalAlignment="Left" Height="30" Margin="127,178,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
-            <TextBlock x:Name="textBlock_EndTime" HorizontalAlignment="Left" Margin="20,216,0,0" TextWrapping="Wrap" Text="End Time" VerticalAlignment="Top" Height="21" Width="77"/>
-            <TextBox x:Name="textBox_EndTime" HorizontalAlignment="Left" Height="30" Margin="127,206,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
-            <TextBlock x:Name="textBlock_OvertimeType" HorizontalAlignment="Left" Margin="20,244,0,0" TextWrapping="Wrap" Text="Overtime Type" VerticalAlignment="Top" Height="21" Width="77"/>
-            <TextBlock x:Name="textBlock_OvertimeActivity" HorizontalAlignment="Left" Margin="20,272,0,0" TextWrapping="Wrap" Text="Overtime Activity" VerticalAlignment="Top" Height="22" Width="91"/>
-            <TextBox x:Name="textBox_OvertimeActivity" HorizontalAlignment="Left" Height="31" Margin="127,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
-            <TextBlock x:Name="textBlock_Salary" HorizontalAlignment="Left" Margin="20,301,0,0" TextWrapping="Wrap" Text="Salary" VerticalAlignment="Top" Height="22" Width="31"/>
-            <TextBox x:Name="textBox_Salary" HorizontalAlignment="Left" Height="31" Margin="127,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
-            <TextBlock x:Name="textBlock_OvertimePay" HorizontalAlignment="Left" Margin="20,330,0,0" TextWrapping="Wrap" Text="Overtime Pay" VerticalAlignment="Top" Height="21" Width="70"/>
-            <TextBox x:Name="textBox_OvertimePay" HorizontalAlignment="Left" Height="30" Margin="127,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
-            <TextBlock x:Name="textBlock_Document" HorizontalAlignment="Left" Margin="20,358,0,0" TextWrapping="Wrap" Text="Document" VerticalAlignment="Top" Height="21" Width="55"/>
-            <TextBox x:Name="textBox_Document" HorizontalAlignment="Left" Height="30" Margin="127,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"/>
-            <DatePicker HorizontalAlignment="Left" Margin="127,156,0,0" VerticalAlignment="Top" Width="172" Height="25"/>
-            <Button x:Name="button_choose" Content="Choose File" HorizontalAlignment="Left" Margin="228,354,0,0" VerticalAlignment="Top" Width="77" Height="25" FontSize="8.5"/>
-            <ComboBox x:Name="comboBox_overtime_type" HorizontalAlignment="Left" Margin="127,241,0,0" VerticalAlignment="Top" Width="172" Height="28"/>
-            <Button x:Name="button_add" Content="Add" HorizontalAlignment="Left" Margin="64,395,0,0" VerticalAlignment="Top" Width="75"/>
-            <Button x:Name="button_cancel" Content="Cancel" HorizontalAlignment="Left" Margin="193,395,0,0" VerticalAlignment="Top" Width="75"/>
+            <TextBlock Text="Create Form" Foreground="#FF3580BF" FontSize="30" FontWeight="Bold" Margin="5,5,0,10"/>
+            <TextBlock x:Name="textBlock_StartTime" HorizontalAlignment="Left" Margin="20,165,0,0" TextWrapping="Wrap" Text="Start Time" VerticalAlignment="Top" Height="21" Width="77"/>
+            <TextBlock x:Name="textBlock_EndTime" HorizontalAlignment="Left" Margin="20,199,0,0" TextWrapping="Wrap" Text="End Time" VerticalAlignment="Top" Height="21" Width="77"/>
+            <TextBlock x:Name="textBlock_OvertimeType" HorizontalAlignment="Left" Margin="20,99,0,0" TextWrapping="Wrap" Text="Overtime Type" VerticalAlignment="Top" Height="21" Width="77"/>
+            <TextBlock x:Name="textBlock_OvertimeActivity" HorizontalAlignment="Left" Margin="20,132,0,0" TextWrapping="Wrap" Text="Activity" VerticalAlignment="Top" Height="22" Width="91"/>
+            <TextBox x:Name="textBox_OvertimeActivity" HorizontalAlignment="Left" Height="31" Margin="127,124,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+            <TextBlock x:Name="textBlock_Salary" HorizontalAlignment="Left" Margin="20,230,0,0" TextWrapping="Wrap" Text="Salary" VerticalAlignment="Top" Height="22" Width="55"/>
+            <TextBox x:Name="textBox_Salary" IsEnabled="False" HorizontalAlignment="Left" Height="31" Margin="127,221,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+            <TextBlock x:Name="textBlock_OvertimePay" HorizontalAlignment="Left" Margin="20,264,0,0" TextWrapping="Wrap" Text="Overtime Pay" VerticalAlignment="Top" Height="21" Width="91"/>
+            <TextBox x:Name="textBox_OvertimePay" IsEnabled="False" HorizontalAlignment="Left" Height="30" Margin="127,254,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
+            <TextBlock x:Name="textBlock_Document" HorizontalAlignment="Left" Margin="20,298,0,0" TextWrapping="Wrap" Text="Document" VerticalAlignment="Top" Height="21" Width="55"/>
+            <TextBox x:Name="textBox_Document" HorizontalAlignment="Left" Height="30" Margin="127,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"/>
+            <Button x:Name="button_choose" Content="Choose File" HorizontalAlignment="Left" Margin="228,294,0,0" VerticalAlignment="Top" Width="77" Height="25" FontSize="8.5"/>
+            <ComboBox x:Name="comboBox_overtime_type" HorizontalAlignment="Left" Margin="127,94,0,0" VerticalAlignment="Top" Width="172" Height="28"/>
+            <Button x:Name="button_add" Content="Add" HorizontalAlignment="Left" Margin="64,338,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button x:Name="button_cancel" Content="Cancel" HorizontalAlignment="Left" Margin="193,338,0,0" VerticalAlignment="Top" Width="75"/>
+            <ComboBox x:Name="comboBox_StartTime" HorizontalAlignment="Left" Margin="127,157,0,0" VerticalAlignment="Top" Width="69">
+                <ComboBoxItem>1</ComboBoxItem>
+                <ComboBoxItem>2</ComboBoxItem>
+                <ComboBoxItem>3</ComboBoxItem>
+                <ComboBoxItem>4</ComboBoxItem>
+                <ComboBoxItem>5</ComboBoxItem>
+                <ComboBoxItem>6</ComboBoxItem>
+                <ComboBoxItem>7</ComboBoxItem>
+                <ComboBoxItem>8</ComboBoxItem>
+                <ComboBoxItem>9</ComboBoxItem>
+                <ComboBoxItem>10</ComboBoxItem>
+                <ComboBoxItem>11</ComboBoxItem>
+                <ComboBoxItem>12</ComboBoxItem>
+                <ComboBoxItem>13</ComboBoxItem>
+                <ComboBoxItem>14</ComboBoxItem>
+                <ComboBoxItem>15</ComboBoxItem>
+                <ComboBoxItem>16</ComboBoxItem>
+                <ComboBoxItem>17</ComboBoxItem>
+                <ComboBoxItem>18</ComboBoxItem>
+                <ComboBoxItem>19</ComboBoxItem>
+                <ComboBoxItem>20</ComboBoxItem>
+                <ComboBoxItem>21</ComboBoxItem>
+                <ComboBoxItem>22</ComboBoxItem>
+                <ComboBoxItem>23</ComboBoxItem>
+                <ComboBoxItem>24</ComboBoxItem>
+            </ComboBox>
+            <ComboBox x:Name="comboBox_EndTime" HorizontalAlignment="Left" Margin="127,190,0,0" VerticalAlignment="Top" Width="69">
+                <ComboBoxItem>1</ComboBoxItem>
+                <ComboBoxItem>2</ComboBoxItem>
+                <ComboBoxItem>3</ComboBoxItem>
+                <ComboBoxItem>4</ComboBoxItem>
+                <ComboBoxItem>5</ComboBoxItem>
+                <ComboBoxItem>6</ComboBoxItem>
+                <ComboBoxItem>7</ComboBoxItem>
+                <ComboBoxItem>8</ComboBoxItem>
+                <ComboBoxItem>9</ComboBoxItem>
+                <ComboBoxItem>10</ComboBoxItem>
+                <ComboBoxItem>11</ComboBoxItem>
+                <ComboBoxItem>12</ComboBoxItem>
+                <ComboBoxItem>13</ComboBoxItem>
+                <ComboBoxItem>14</ComboBoxItem>
+                <ComboBoxItem>15</ComboBoxItem>
+                <ComboBoxItem>16</ComboBoxItem>
+                <ComboBoxItem>17</ComboBoxItem>
+                <ComboBoxItem>18</ComboBoxItem>
+                <ComboBoxItem>19</ComboBoxItem>
+                <ComboBoxItem>20</ComboBoxItem>
+                <ComboBoxItem>21</ComboBoxItem>
+                <ComboBoxItem>22</ComboBoxItem>
+                <ComboBoxItem>23</ComboBoxItem>
+                <ComboBoxItem>24</ComboBoxItem>
+            </ComboBox>
+            <TextBlock x:Name="textBlock_hour_start" HorizontalAlignment="Left" Margin="204,166,0,0" TextWrapping="Wrap" Text="Hours" VerticalAlignment="Top" Height="22" Width="55"/>
+            <TextBlock x:Name="textBlock_hour_end" HorizontalAlignment="Left" Margin="204,197,0,0" TextWrapping="Wrap" Text="Hours" VerticalAlignment="Top" Height="22" Width="55"/>
 
             <DataGrid x:Name="dataGrid_overtime" HorizontalAlignment="Left" Margin="304,92,-85,0" VerticalAlignment="Top" Width="535" Height="144" FontSize="9">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="No" Binding="{Binding Path=No}"></DataGridTextColumn>
-                    <DataGridTextColumn Header="Date" Binding="{Binding Path=Date}"></DataGridTextColumn>
-                    <DataGridTextColumn Header="Start Time" Binding="{Binding Path=StartTime}"></DataGridTextColumn>
-                    <DataGridTextColumn Header="End Time" Binding="{Binding Path=EndTime}"></DataGridTextColumn>
-                    <DataGridTextColumn Header="Overtime Type" Binding="{Binding Path=OvertimeType}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Overtime Type" Binding="{Binding Path=Type_id.Overtime_Type}"></DataGridTextColumn>
                     <DataGridTextColumn Header="Activity" Binding="{Binding Path=Activity}"></DataGridTextColumn>
-                    <DataGridTextColumn Header="Action" Binding="{Binding Path=Action}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Start Time" Binding="{Binding Path=Start_Overtime}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="End Time" Binding="{Binding Path=End_Overtime}"></DataGridTextColumn>
+                    <DataGridTextColumn Header="Pay" Binding="{Binding Path=Pay_Overtime}"></DataGridTextColumn>
+                    <DataGridTemplateColumn>
+                        <DataGridTemplateColumn.HeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="Action"/>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.HeaderTemplate>
+                        <DataGridTemplateColumn.CellTemplate>
+                            <DataTemplate>
+                                <Button x:Name="button_delete" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Width="25" Height="25" Background="{x:Null}" BorderBrush="{x:Null}">
+                                    <materialDesign:PackIcon Kind="Delete" Foreground="#FF3580BF" Height="20" Width="20" />
+                                </Button>
+                            </DataTemplate>
+                        </DataGridTemplateColumn.CellTemplate>
+                    </DataGridTemplateColumn>
                 </DataGrid.Columns>
             </DataGrid>
             <Button x:Name="button_submit" Content="Submit" HorizontalAlignment="Left" Margin="753,241,-85,0" VerticalAlignment="Top" Width="86"/>
+            
         </Grid>
 
     </Grid>
