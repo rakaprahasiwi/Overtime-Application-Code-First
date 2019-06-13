@@ -51,19 +51,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\MyContext.cs" />
-    <Compile Include="Migrations\201906100956200_OvertimeMigration.cs" />
-    <Compile Include="Migrations\201906100956200_OvertimeMigration.Designer.cs">
-      <DependentUpon>201906100956200_OvertimeMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201906130324354_OvertimeMigration1.cs" />
-    <Compile Include="Migrations\201906130324354_OvertimeMigration1.Designer.cs">
-      <DependentUpon>201906130324354_OvertimeMigration1.cs</DependentUpon>
+    <Compile Include="Migrations\201906130936308_OvertimeMigration.cs" />
+    <Compile Include="Migrations\201906130936308_OvertimeMigration.Designer.cs">
+      <DependentUpon>201906130936308_OvertimeMigration.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Model\ActivityOvertime.cs" />
     <Compile Include="Model\DataOvertime.cs" />
     <Compile Include="Model\Employee.cs" />
     <Compile Include="Model\Parameter.cs" />
+    <Compile Include="Model\Submited.cs" />
     <Compile Include="Model\TypeOvertime.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -71,6 +68,7 @@
     <Compile Include="ViewModels\DataOvertimeVM.cs" />
     <Compile Include="ViewModels\EmployeeVM.cs" />
     <Compile Include="ViewModels\ParameterVM.cs" />
+    <Compile Include="ViewModels\SubmitedVM.cs" />
     <Compile Include="ViewModels\TypeOvertimeVM.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -84,11 +82,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201906100956200_OvertimeMigration.resx">
-      <DependentUpon>201906100956200_OvertimeMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201906130324354_OvertimeMigration1.resx">
-      <DependentUpon>201906130324354_OvertimeMigration1.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201906130936308_OvertimeMigration.resx">
+      <DependentUpon>201906130936308_OvertimeMigration.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

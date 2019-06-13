@@ -61,5 +61,12 @@ namespace OvertimeApplication.UserInterface
                     break;
             }
         }
+
+        private void Button_Click_Logout(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+            MainWindow mainWindow = new MainWindow();
+            mainWindow.Show();
+        }
     }
 }

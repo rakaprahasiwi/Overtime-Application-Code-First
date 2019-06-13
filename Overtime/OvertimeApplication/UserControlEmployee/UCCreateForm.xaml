@@ -22,7 +22,7 @@
             <TextBlock Text="CREATE FORM" Foreground="#FF3580BF" FontSize="30" FontWeight="Bold" Margin="5,5,0,10"/>
 
             <TextBlock x:Name="textBlock_nik" HorizontalAlignment="Left" Margin="20,103,0,0" TextWrapping="Wrap" Text="NIK" VerticalAlignment="Top" Height="19" Width="55"/>
-            <TextBox x:Name="textBox_nik" HorizontalAlignment="Left" Height="28" Margin="127,93,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="172"/>
+            <TextBox x:Name="textBox_nik" HorizontalAlignment="Left" Height="28" Margin="129,93,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="172"/>
             <TextBlock x:Name="textBlock_name" HorizontalAlignment="Left" Margin="20,131,0,0" TextWrapping="Wrap" Text="Name" VerticalAlignment="Top" Height="22" Width="32"/>
             <TextBox x:Name="textBox_name" HorizontalAlignment="Left" Height="31" Margin="127,121,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
             <TextBlock x:Name="textBlock_Date" HorizontalAlignment="Left" Margin="20,160,0,0" TextWrapping="Wrap" Text="Date" VerticalAlignment="Top" Height="21" Width="25"/>
@@ -35,7 +35,7 @@
             <TextBox x:Name="textBox_OvertimeActivity" HorizontalAlignment="Left" Height="31" Margin="127,262,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
             <TextBlock x:Name="textBlock_Salary" HorizontalAlignment="Left" Margin="20,301,0,0" TextWrapping="Wrap" Text="Salary" VerticalAlignment="Top" Height="22" Width="31"/>
             <TextBox x:Name="textBox_Salary" HorizontalAlignment="Left" Height="31" Margin="127,291,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
-            <TextBlock x:Name="textBlock_OvertimePay" HorizontalAlignment="Left" Margin="20,330,0,0" TextWrapping="Wrap" Text="Overtime Pay" VerticalAlignment="Top" Height="21" Width="70"/>
+            <TextBlock x:Name="textBlock_OvertimePay" HorizontalAlignment="Left" Margin="20,330,0,0" TextWrapping="Wrap" Text="Overtime Pay" VerticalAlignment="Top" Height="21" Width="91"/>
             <TextBox x:Name="textBox_OvertimePay" HorizontalAlignment="Left" Height="30" Margin="127,320,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172"/>
             <TextBlock x:Name="textBlock_Document" HorizontalAlignment="Left" Margin="20,358,0,0" TextWrapping="Wrap" Text="Document" VerticalAlignment="Top" Height="21" Width="55"/>
             <TextBox x:Name="textBox_Document" HorizontalAlignment="Left" Height="30" Margin="127,348,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"/>
