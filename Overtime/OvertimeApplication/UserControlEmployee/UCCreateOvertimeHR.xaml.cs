@@ -1,4 +1,7 @@
-﻿using System;
+﻿using BusinessLogic.Service;
+using BusinessLogic.Service.Application;
+using DataAccess.Model;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,14 +23,29 @@ namespace OvertimeApplication.UserControlEmployee
     /// </summary>
     public partial class UCCreateOvertimeHR :System.Windows.Controls.UserControl
     {
+        ITypeOvertimeService iTypeOvertimeService = new TypeOvertimeService();
+        IEmployeeService iEmployeeService = new EmployeeService();
+        string salary;
         public UCCreateOvertimeHR()
         {
             InitializeComponent();
         }
 
+        public UCCreateOvertimeHR(Employee employee)
+        {
+            InitializeComponent();
+            Show();
+            textBox_Salary.Text = employee.Salary_Employee.ToString();
+        }
+
         private void ButtonClose_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
+        }
+
+        private void Show()
+        {
+            comboBox_overtime_type.ItemsSource = iTypeOvertimeService.Get();
         }
 
         //private void ListViewMenu_SelectionChanged(object sender, SelectionChangedEventArgs e)

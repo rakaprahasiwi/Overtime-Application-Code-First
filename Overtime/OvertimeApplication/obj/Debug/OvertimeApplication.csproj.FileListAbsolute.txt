@@ -68,6 +68,7 @@ C:\Users\Irfan\source\repos\Git\Overtime-Application-Code-First-WPF\Overtime\Ove
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\OvertimeApplication.exe.config
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\OvertimeApplication.exe
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\OvertimeApplication.pdb
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\BusinessLogic.exe
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\Common.exe
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\DataAccess.exe
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\EntityFramework.dll
@@ -100,6 +101,7 @@ E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\Xc
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\Core.exe
+E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\BusinessLogic.pdb
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\Common.pdb
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\DataAccess.pdb
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\EntityFramework.xml
@@ -170,5 +172,3 @@ E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\Ov
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\OvertimeApplication.csproj.GenerateResource.Cache
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\OvertimeApplication.exe
 E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\obj\Debug\OvertimeApplication.pdb
-E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\BusinessLogic.exe
-E:\Overtime-Application-Code-First-WPF\Overtime\OvertimeApplication\bin\Debug\BusinessLogic.pdb

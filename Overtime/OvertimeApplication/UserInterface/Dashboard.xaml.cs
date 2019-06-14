@@ -13,6 +13,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using DataAccess.Model;
+using DataAccess.ViewModels;
 
 namespace OvertimeApplication.UserInterface
 {
@@ -21,9 +23,18 @@ namespace OvertimeApplication.UserInterface
     /// </summary>
     public partial class Dashboard : Window
     {
+        public Employee _employee;
         public Dashboard()
         {
             InitializeComponent();
+        }
+
+        public Dashboard(Employee employee)
+        {
+            InitializeComponent();
+            _employee = employee;
+            UserControl usc;
+            usc = new UCCreateForm(_employee);
         }
 
         private void ButtonClose_Click(object sender, RoutedEventArgs e)
@@ -55,7 +66,7 @@ namespace OvertimeApplication.UserInterface
                     GridMain.Children.Add(usc);
                     break;
                 case "CreateOvertime":
-                    usc = new UCCreateOvertimeHR();
+                    usc = new UCCreateOvertimeHR(_employee);
                     GridMain.Children.Add(usc);
                     break;
                 case "ListSubmissionOvertime":
@@ -77,6 +88,11 @@ namespace OvertimeApplication.UserInterface
             this.Close();
             MainWindow mainWindow = new MainWindow();
             mainWindow.Show();
+        }
+
+        private void ListSubmissionOvertime_Selected(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

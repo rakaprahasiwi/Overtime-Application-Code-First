@@ -1,4 +1,6 @@
-﻿using OvertimeApplication.UserControlEmployee;
+﻿using DataAccess.Model;
+using DataAccess.ViewModels;
+using OvertimeApplication.UserControlEmployee;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,9 +22,19 @@ namespace OvertimeApplication.UserInterface
     /// </summary>
     public partial class UIDashboardEmployee : Window
     {
+        public Employee _employee;
+
         public UIDashboardEmployee()
         {
             InitializeComponent();
+        }
+
+        public UIDashboardEmployee(Employee employee)
+        {
+            InitializeComponent();
+            _employee = employee;
+            UserControl usc;
+            usc = new UCCreateForm(_employee);
         }
 
         private void ButtonClose_Click(object sender, RoutedEventArgs e)
@@ -54,7 +66,7 @@ namespace OvertimeApplication.UserInterface
                     GridMain.Children.Add(usc);
                     break;
                 case "listViewItem1":
-                    usc = new UCCreateForm();
+                    usc = new UCCreateForm(_employee);
                     GridMain.Children.Add(usc);
                     break;
                 default:

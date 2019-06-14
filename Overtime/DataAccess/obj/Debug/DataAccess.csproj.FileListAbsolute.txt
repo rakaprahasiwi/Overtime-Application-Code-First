@@ -97,7 +97,7 @@ E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\bin\Debug\ru\Xceed.Wp
 E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\obj\Debug\DataAccess.csprojResolveAssemblyReference.cache
-E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\obj\Debug\DataAccess.exe
-E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\obj\Debug\DataAccess.pdb
 E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\obj\Debug\DataAccess.Migrations.overtimeMigration.resources
 E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\obj\Debug\DataAccess.csproj.GenerateResource.Cache
+E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\obj\Debug\DataAccess.exe
+E:\Overtime-Application-Code-First-WPF\Overtime\DataAccess\obj\Debug\DataAccess.pdb

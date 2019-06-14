@@ -115,7 +115,7 @@
                 </Button>
             </StackPanel>
             <ListView x:Name="ListViewMenu" Foreground="#FF5C99D6" ScrollViewer.HorizontalScrollBarVisibility="Disabled" SelectionChanged="ListViewMenu_SelectionChanged">
-                <ListViewItem x:Name="Parameter" Height="60" RenderTransformOrigin="0.5,0.5">
+                <ListViewItem x:Name="ListSubmissionOvertime" Height="60" RenderTransformOrigin="0.5,0.5" Selected="ListSubmissionOvertime_Selected">
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -126,6 +126,20 @@
                     </ListViewItem.RenderTransform>
                     <StackPanel Orientation="Horizontal" Margin="10 0">
                         <materialDesign:PackIcon Kind="Home" Width="30" Height="30" VerticalAlignment="Center" Margin="5" Foreground="#DDFFFFFF"/>
+                        <TextBlock Text="Dashboard" Margin="10" VerticalAlignment="Center" Foreground="#DDF5F5F5"/>
+                    </StackPanel>
+                </ListViewItem>
+                <ListViewItem x:Name="Parameter" Height="60" RenderTransformOrigin="0.5,0.5">
+                    <ListViewItem.RenderTransform>
+                        <TransformGroup>
+                            <ScaleTransform/>
+                            <SkewTransform/>
+                            <RotateTransform/>
+                            <TranslateTransform/>
+                        </TransformGroup>
+                    </ListViewItem.RenderTransform>
+                    <StackPanel Orientation="Horizontal" Margin="10 0">
+                        <materialDesign:PackIcon Kind="Settings" Width="30" Height="30" VerticalAlignment="Center" Margin="5" Foreground="#DDFFFFFF"/>
                         <TextBlock Text="Parameter" Margin="10" VerticalAlignment="Center" Foreground="#DDFBFBFB"/>
                     </StackPanel>
                 </ListViewItem>
@@ -139,24 +153,11 @@
                         </TransformGroup>
                     </ListViewItem.RenderTransform>
                     <StackPanel Orientation="Horizontal" Margin="10 0">
-                        <materialDesign:PackIcon Kind="AccountSearch" Width="30" Height="30" VerticalAlignment="Center" Margin="5" Foreground="#DDFDFDFD"/>
+                        <materialDesign:PackIcon Kind="Create" Width="30" Height="30" VerticalAlignment="Center" Margin="5" Foreground="#DDFDFDFD"/>
                         <TextBlock Text="Create Overtime" Margin="10" VerticalAlignment="Center" Foreground="#DDF7F7F7"/>
                     </StackPanel>
                 </ListViewItem>
-                <ListViewItem x:Name="ListSubmissionOvertime" Height="60" RenderTransformOrigin="0.5,0.5">
-                    <ListViewItem.RenderTransform>
-                        <TransformGroup>
-                            <ScaleTransform/>
-                            <SkewTransform/>
-                            <RotateTransform/>
-                            <TranslateTransform/>
-                        </TransformGroup>
-                    </ListViewItem.RenderTransform>
-                    <StackPanel Orientation="Horizontal" Margin="10 0">
-                        <materialDesign:PackIcon Kind="Facebook" Width="30" Height="30" VerticalAlignment="Center" Margin="5" Foreground="#DDFFFFFF"/>
-                        <TextBlock Text="List Submission Overtime" Margin="10" VerticalAlignment="Center" Foreground="#DDF5F5F5"/>
-                    </StackPanel>
-                </ListViewItem>
+               
                 <ListViewItem x:Name="ListApproveOvertimeForm" Height="60" RenderTransformOrigin="0.5,0.5">
                     <ListViewItem.RenderTransform>
                         <TransformGroup>
@@ -167,7 +168,7 @@
                         </TransformGroup>
                     </ListViewItem.RenderTransform>
                     <StackPanel Orientation="Horizontal" Margin="10 0">
-                        <materialDesign:PackIcon Kind="Twitter" Width="30" Height="30" VerticalAlignment="Center" Margin="5" Foreground="#DDF1F1F1"/>
+                        <materialDesign:PackIcon Kind="FormatListBulleted" Width="30" Height="30" VerticalAlignment="Center" Margin="5" Foreground="#DDF1F1F1"/>
                         <TextBlock Text="List Approve Overtime Form" Margin="10" VerticalAlignment="Center" Foreground="#DDFFFFFF"/>
                     </StackPanel>
                 </ListViewItem>

@@ -10,7 +10,6 @@ C:\Users\Irfan\source\repos\OvertimeApplication\BusinessLogic\obj\Debug\Business
 C:\Users\Irfan\source\repos\OvertimeApplication\BusinessLogic\obj\Debug\BusinessLogic.csproj.CopyComplete
 C:\Users\Irfan\source\repos\OvertimeApplication\BusinessLogic\obj\Debug\BusinessLogic.exe
 C:\Users\Irfan\source\repos\OvertimeApplication\BusinessLogic\obj\Debug\BusinessLogic.pdb
-E:\Overtime-Application-Code-First-WPF\Overtime\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
 E:\Overtime-Application-Code-First-WPF\Overtime\BusinessLogic\bin\Debug\BusinessLogic.exe.config
 E:\Overtime-Application-Code-First-WPF\Overtime\BusinessLogic\bin\Debug\BusinessLogic.exe
 E:\Overtime-Application-Code-First-WPF\Overtime\BusinessLogic\bin\Debug\BusinessLogic.pdb
@@ -84,5 +83,6 @@ E:\Overtime-Application-Code-First-WPF\Overtime\BusinessLogic\bin\Debug\ro\Xceed
 E:\Overtime-Application-Code-First-WPF\Overtime\BusinessLogic\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\BusinessLogic\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\BusinessLogic\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
+E:\Overtime-Application-Code-First-WPF\Overtime\BusinessLogic\obj\Debug\BusinessLogic.csprojResolveAssemblyReference.cache
 E:\Overtime-Application-Code-First-WPF\Overtime\BusinessLogic\obj\Debug\BusinessLogic.exe
 E:\Overtime-Application-Code-First-WPF\Overtime\BusinessLogic\obj\Debug\BusinessLogic.pdb

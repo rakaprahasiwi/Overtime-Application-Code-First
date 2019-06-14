@@ -58,5 +58,10 @@ namespace OvertimeApplication.UserControlEmployee
         {
             dataGrid_parameter.ItemsSource = iParameterService.Get();
         }
+
+        private void button_delete_Click(object sender, RoutedEventArgs e)
+        {
+            //int id = (dataGrid_parameter.SelectedItem as member)
+        }
     }
 }

@@ -47,12 +47,14 @@ namespace OvertimeApplication
                 this.Hide();
                 if(loginRepository.CheckAdmin(textbox_email.Text, passwordbox_email.Password) == true)
                 {
-                    Dashboard dashboard = new Dashboard();
+                    var get = myContext.Employees.Where(x => x.Email_Employee == textbox_email.Text && x.Password_Employee == passwordbox_email.Password).SingleOrDefault();
+                    Dashboard dashboard = new Dashboard(get);
                     dashboard.Show();
                 }
                 else
                 {
-                    UIDashboardEmployee uiDashboardEmployee = new UIDashboardEmployee();
+                    var get = myContext.Employees.Where(x => x.Email_Employee == textbox_email.Text && x.Password_Employee == passwordbox_email.Password).SingleOrDefault();
+                    UIDashboardEmployee uiDashboardEmployee = new UIDashboardEmployee(get);
                     uiDashboardEmployee.Show();
                 }
             }
