@@ -10,14 +10,15 @@ namespace DataAccess.ViewModels
     {
         public SubmitedVM() { }
 
-        public SubmitedVM(string status_submited, string name_submited)
+        public SubmitedVM(string name_submitted, string status_submitted)
         {
-            this.Status_submited = status_submited;
-            this.Name_Submited = name_submited;
+            this.Name_Submitted = name_submitted;
+            this.Status_Submitted = status_submitted;
         }
 
-        public string Status_submited { get; set; }
-        public string Name_Submited { get; set; }
+        public int Id { get; set; }
+        public string Name_Submitted { get; set; }
+        public string Status_Submitted { get; set; }
 
     }
 }

@@ -14,21 +14,21 @@ namespace DataAccess.Model
     {
         public Parameter() { }
 
-        public string Name_Parameter { get; set; }
-        public int Value_Parameter { get; set; }
+        public int Long_Time { get; set; }
+        public int Pay { get; set; }
 
         public Parameter(ParameterVM parameterVM)
         {
-            this.Name_Parameter = parameterVM.Name_Parameter;
-            this.Value_Parameter = parameterVM.Value_Parameter;
+            this.Long_Time = parameterVM.Long_Time;
+            this.Pay = parameterVM.Pay;
             this.CreateDate = DateTimeOffset.Now.ToLocalTime();
         }
 
         public void Update(int id, ParameterVM parameterVM)
         {
             this.Id = id;
-            this.Name_Parameter = parameterVM.Name_Parameter;
-            this.Value_Parameter = parameterVM.Value_Parameter;
+            this.Long_Time = parameterVM.Long_Time;
+            this.Pay = parameterVM.Pay;
             this.UpdateDate = DateTimeOffset.Now.ToLocalTime();
         }
 

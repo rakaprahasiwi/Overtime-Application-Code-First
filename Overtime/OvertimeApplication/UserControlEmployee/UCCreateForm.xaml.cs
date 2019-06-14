@@ -1,4 +1,6 @@
-﻿using System;
+﻿using BusinessLogic.Service;
+using BusinessLogic.Service.Application;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,9 +22,12 @@ namespace OvertimeApplication.UserControlEmployee
     /// </summary>
     public partial class UCCreateForm : System.Windows.Controls.UserControl
     {
+        ITypeOvertimeService iTypeOvertimeService = new TypeOvertimeService();
+        IEmployeeService iEmployeeService = new EmployeeService();
         public UCCreateForm()
         {
             InitializeComponent();
+            Show();
         }
 
         private void ButtonClose_Click(object sender, RoutedEventArgs e)
@@ -30,5 +35,10 @@ namespace OvertimeApplication.UserControlEmployee
             Application.Current.Shutdown();
         }
 
+        private void Show()
+        {
+            comboBox_overtime_type.ItemsSource = iTypeOvertimeService.Get();
+            
+        }
     }
 }

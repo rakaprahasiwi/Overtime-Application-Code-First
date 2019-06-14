@@ -36,7 +36,7 @@ namespace BusinessLogic.Service.Application
 
         public bool Insert(ParameterVM parameterVM)
         {
-            if (string.IsNullOrWhiteSpace(parameterVM.Name_Parameter) || string.IsNullOrWhiteSpace(parameterVM.Value_Parameter.ToString()))
+            if (string.IsNullOrWhiteSpace(parameterVM.Long_Time.ToString()) || string.IsNullOrWhiteSpace(parameterVM.Pay.ToString()))
             {
                 return false;
             }
@@ -48,7 +48,7 @@ namespace BusinessLogic.Service.Application
 
         public bool Update(int id, ParameterVM parameterVM)
         {
-            if (string.IsNullOrWhiteSpace(parameterVM.Name_Parameter) || string.IsNullOrWhiteSpace(parameterVM.Value_Parameter.ToString()))
+            if (string.IsNullOrWhiteSpace(parameterVM.Long_Time.ToString()) || string.IsNullOrWhiteSpace(parameterVM.Pay.ToString()))
             {
                 return false;
             }

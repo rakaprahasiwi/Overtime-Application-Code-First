@@ -44,7 +44,7 @@ namespace Common.Repository.Application
 
         public List<Parameter> GetSearch(string values)
         {
-            var get = myContext.Parameters.Where(x => (x.Name_Parameter.Contains(values) || x.Value_Parameter.ToString().Contains(values)) && x.IsDelete == false).ToList();
+            var get = myContext.Parameters.Where(x => (x.Long_Time.ToString().Contains(values) || x.Pay.ToString().Contains(values)) && x.IsDelete == false).ToList();
             return get;
         }
 

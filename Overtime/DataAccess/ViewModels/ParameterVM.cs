@@ -10,21 +10,21 @@ namespace DataAccess.ViewModels
     {
         public ParameterVM() { }
 
-        public ParameterVM(string name_parameter, int value_parameter)
+        public ParameterVM(int long_time, int pay)
         {
-            this.Name_Parameter = name_parameter;
-            this.Value_Parameter = value_parameter;
+            this.Long_Time = long_time ;
+            this.Pay = pay;
         }
 
-        public void Update(int parameter_id, string name_parameter, int value_parameter)
+        public void Update(int id, int long_time, int pay)
         {
-            this.Parameter_Id = parameter_id;
-            this.Name_Parameter = name_parameter;
-            this.Value_Parameter = value_parameter;
+            this.Id = id;
+            this.Long_Time = long_time;
+            this.Pay = pay;
         }
 
-        public int Parameter_Id { get; set; }
-        public string Name_Parameter { get; set; }
-        public int Value_Parameter { get; set; }
+        public int Id { get; set; }
+        public int Long_Time { get; set; }
+        public int Pay { get; set; }
     }
 }

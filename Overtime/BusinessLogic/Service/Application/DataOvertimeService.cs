@@ -36,11 +36,7 @@ namespace BusinessLogic.Service.Application
 
         public bool Insert(DataOvertimeVM dataOvertimeVM)
         {
-            if (string.IsNullOrWhiteSpace(dataOvertimeVM.Attachment_Overtime) || string.IsNullOrWhiteSpace(dataOvertimeVM.Description_Overtime) || string.IsNullOrWhiteSpace(dataOvertimeVM.Pay_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Employee_Id.ToString()))
-            {
-                return false;
-            }
-            else if (string.IsNullOrWhiteSpace(dataOvertimeVM.End_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Date_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Start_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Status_Overtime) || string.IsNullOrWhiteSpace(dataOvertimeVM.Type_Id.ToString()))
+            if (string.IsNullOrWhiteSpace(dataOvertimeVM.Type_Id.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Description_Overtime) || string.IsNullOrWhiteSpace(dataOvertimeVM.Start_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.End_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Pay_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Attachment_Overtime.ToString()))
             {
                 return false;
             }
@@ -52,11 +48,7 @@ namespace BusinessLogic.Service.Application
 
         public bool Update(int id, DataOvertimeVM dataOvertimeVM)
         {
-            if (string.IsNullOrWhiteSpace(dataOvertimeVM.Attachment_Overtime) || string.IsNullOrWhiteSpace(dataOvertimeVM.Description_Overtime) || string.IsNullOrWhiteSpace(dataOvertimeVM.Pay_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Employee_Id.ToString()))
-            {
-                return false;
-            }
-            else if (string.IsNullOrWhiteSpace(dataOvertimeVM.End_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Date_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Start_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Status_Overtime) || string.IsNullOrWhiteSpace(dataOvertimeVM.Type_Id.ToString()))
+            if (string.IsNullOrWhiteSpace(dataOvertimeVM.Type_Id.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Description_Overtime) || string.IsNullOrWhiteSpace(dataOvertimeVM.Start_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.End_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Pay_Overtime.ToString()) || string.IsNullOrWhiteSpace(dataOvertimeVM.Attachment_Overtime.ToString()))
             {
                 return false;
             }

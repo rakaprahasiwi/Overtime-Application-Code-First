@@ -12,7 +12,7 @@ namespace DataAccess.Context
     {
         public MyContext() : base("MyContext") { }
 
-        public DbSet<ActivityOvertime> ActivityOvertimes { get; set; }
+        public DbSet<Submited> Submiteds { get; set; }
         public DbSet<DataOvertime> DataOvertimes { get; set; }
         public DbSet<Employee> Employees { get; set; }
         public DbSet<Parameter> Parameters { get; set; }

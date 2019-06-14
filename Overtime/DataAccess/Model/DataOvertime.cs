@@ -17,8 +17,7 @@ namespace DataAccess.Model
         public DateTimeOffset Start_Overtime { get; set; }
         public DateTimeOffset End_Overtime { get; set; }
         public string Attachment_Overtime { get; set; }
-        public string Status_Overtime { get; set; }
-        public string Name_Submited { get; set; }
+        public string Description_Overtime { get; set; }
 
         [ForeignKey("TypeOvertime")]
         public int Type_Id { get; set; }
@@ -28,6 +27,10 @@ namespace DataAccess.Model
         public int Employee_Id { get; set; }
         public Employee Employee { get; set; }
 
+        [ForeignKey("Submited")]
+        public int Submited_Id { get; set; }
+        public Submited Submited { get; set; }
+
         public DataOvertime(DataOvertimeVM dataOvertimeVM)
         {
             this.Date_Overtime = dataOvertimeVM.Date_Overtime;
@@ -35,9 +38,11 @@ namespace DataAccess.Model
             this.Start_Overtime = dataOvertimeVM.Start_Overtime;
             this.End_Overtime = dataOvertimeVM.End_Overtime;
             this.Attachment_Overtime = dataOvertimeVM.Attachment_Overtime;
-            this.Status_Overtime = dataOvertimeVM.Status_Overtime;
+            this.Description_Overtime = dataOvertimeVM.Description_Overtime;
+            this.Submited_Id = dataOvertimeVM.Submited_Id;
+            this.Type_Id = dataOvertimeVM.Type_Id;
+            this.Employee_Id = dataOvertimeVM.Employee_Id;
             this.CreateDate = DateTimeOffset.Now.ToLocalTime();
-            this.Name_Submited = dataOvertimeVM.Name_Submited;
         }
 
         public void Update (int id, DataOvertimeVM dataOvertimeVM)
@@ -48,9 +53,11 @@ namespace DataAccess.Model
             this.Start_Overtime = dataOvertimeVM.Start_Overtime;
             this.End_Overtime = dataOvertimeVM.End_Overtime;
             this.Attachment_Overtime = dataOvertimeVM.Attachment_Overtime;
-            this.Status_Overtime = dataOvertimeVM.Status_Overtime;
+            this.Description_Overtime = dataOvertimeVM.Description_Overtime;
+            this.Submited_Id = dataOvertimeVM.Submited_Id;
+            this.Type_Id = dataOvertimeVM.Type_Id;
+            this.Employee_Id = dataOvertimeVM.Employee_Id;
             this.UpdateDate = DateTimeOffset.Now.ToLocalTime();
-            this.Name_Submited = dataOvertimeVM.Name_Submited;
         }
 
         public void Delete()

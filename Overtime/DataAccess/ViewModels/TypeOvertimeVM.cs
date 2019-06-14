@@ -10,9 +10,8 @@ namespace DataAccess.ViewModels
     {
         public TypeOvertimeVM() { }
 
-        public TypeOvertimeVM(int type_id, string overtime_type)
+        public TypeOvertimeVM(string overtime_type)
         {
-            this.Id = type_id;
             this.Overtime_Type = overtime_type;
         }
 

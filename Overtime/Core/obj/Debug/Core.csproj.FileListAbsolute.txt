@@ -23,10 +23,6 @@ E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Core.exe
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Core.pdb
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\EntityFramework.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\EntityFramework.SqlServer.dll
-E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\EntityFramework.xml
-E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\EntityFramework.SqlServer.xml
-E:\Overtime-Application-Code-First-WPF\Overtime\Core\obj\Debug\Core.exe
-E:\Overtime-Application-Code-First-WPF\Overtime\Core\obj\Debug\Core.pdb
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Xceed.Wpf.AvalonDock.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.dll
@@ -52,6 +48,8 @@ E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Xceed.Wpf.Toolkit
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Xceed.Wpf.Toolkit.Themes.Metro.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Xceed.Wpf.Toolkit.Themes.Office2007.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Xceed.Wpf.Toolkit.Themes.Windows10.dll
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\EntityFramework.xml
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\EntityFramework.SqlServer.xml
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Xceed.Wpf.AvalonDock.xml
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Aero.xml
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\Xceed.Wpf.AvalonDock.Themes.Metro.xml
@@ -87,4 +85,5 @@ E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\ro\Xceed.Wpf.Aval
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\ru\Xceed.Wpf.AvalonDock.resources.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\sv\Xceed.Wpf.AvalonDock.resources.dll
 E:\Overtime-Application-Code-First-WPF\Overtime\Core\bin\Debug\zh-Hans\Xceed.Wpf.AvalonDock.resources.dll
-E:\Overtime-Application-Code-First-WPF\Overtime\Core\obj\Debug\Core.csprojResolveAssemblyReference.cache
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\obj\Debug\Core.exe
+E:\Overtime-Application-Code-First-WPF\Overtime\Core\obj\Debug\Core.pdb
