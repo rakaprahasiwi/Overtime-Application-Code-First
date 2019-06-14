@@ -31,7 +31,7 @@
             <TextBlock x:Name="textBlock_Document" HorizontalAlignment="Left" Margin="20,298,0,0" TextWrapping="Wrap" Text="Document" VerticalAlignment="Top" Height="21" Width="55"/>
             <TextBox x:Name="textBox_Document" HorizontalAlignment="Left" Height="30" Margin="127,288,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="98"/>
             <Button x:Name="button_choose" Content="Choose File" HorizontalAlignment="Left" Margin="228,294,0,0" VerticalAlignment="Top" Width="77" Height="25" FontSize="8.5"/>
-            <ComboBox x:Name="comboBox_overtime_type" HorizontalAlignment="Left" Margin="127,94,0,0" VerticalAlignment="Top" Width="172" Height="28"/>
+            <ComboBox x:Name="comboBox_overtime_type" DisplayMemberPath="Overtime_type" SelectedValuePath="Id" HorizontalAlignment="Left" Margin="127,94,0,0" VerticalAlignment="Top" Width="172" Height="28"/>
             <Button x:Name="button_add" Content="Add" HorizontalAlignment="Left" Margin="64,338,0,0" VerticalAlignment="Top" Width="75"/>
             <Button x:Name="button_cancel" Content="Cancel" HorizontalAlignment="Left" Margin="193,338,0,0" VerticalAlignment="Top" Width="75"/>
             <ComboBox x:Name="comboBox_StartTime" HorizontalAlignment="Left" Margin="127,157,0,0" VerticalAlignment="Top" Width="69">

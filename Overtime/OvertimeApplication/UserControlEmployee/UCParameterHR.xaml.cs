@@ -1,4 +1,8 @@
-﻿using System;
+﻿using BusinessLogic.Service;
+using BusinessLogic.Service.Application;
+using Common.Repository.Application;
+using DataAccess.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,14 +24,39 @@ namespace OvertimeApplication.UserControlEmployee
     /// </summary>
     public partial class UCParameterHR : UserControl
     {
+        IParameterService iParameterService = new ParameterService();
+        ParameterVM parameterVM = new ParameterVM();
         public UCParameterHR()
         {
             InitializeComponent();
+            Show();
         }
 
         private void ButtonClose_Click(object sender, RoutedEventArgs e)
         {
             Application.Current.Shutdown();
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            parameterVM.Long_Time = Convert.ToInt32(txtBox_longTime.Text);
+            parameterVM.Pay = Convert.ToInt32(txtBox_pay.Text);
+           
+            var result = iParameterService.Insert(parameterVM);
+            if (result) //default true
+            {
+                MessageBox.Show("Insert Successfully");
+            }
+            else
+            {
+                MessageBox.Show("Insert Failed");
+            }
+            Show();
+        }
+
+        private void Show()
+        {
+            dataGrid_parameter.ItemsSource = iParameterService.Get();
         }
     }
 }

@@ -287,6 +287,10 @@
     <Resource Include="Assets\overtimebg.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj">
+      <Project>{C387A954-460D-4E01-A878-6FA6F9E9557D}</Project>
+      <Name>BusinessLogic</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{36D29AB4-8954-4A50-B742-12071D0208C6}</Project>
       <Name>Common</Name>

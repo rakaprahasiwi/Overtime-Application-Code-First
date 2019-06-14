@@ -14,13 +14,13 @@ namespace DataAccess.Model
     {
         public Submited() { }
 
-        public string Status_submited { get; set; }
-        public string Name_Submited { get; set; }
+        public string Name_Submitted { get; set; }
+        public string Status_Submitted { get; set; }
 
         public Submited(SubmitedVM submitedVM)
         {
-            this.Status_submited = submitedVM.Status_submited;
-            this.Name_Submited = submitedVM.Name_Submited;
+            this.Name_Submitted = submitedVM.Name_Submitted;
+            this.Status_Submitted = submitedVM.Status_Submitted;
         }
     }
 }

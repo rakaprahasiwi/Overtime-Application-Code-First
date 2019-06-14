@@ -11,7 +11,7 @@ namespace BusinessLogic.Service.Application
 {
     public class EmployeeService : IEmployeeService
     {
-        IEmployee iEmployee = new EmployeeRepository(); 
+        IEmployee iEmployee = new EmployeeRepository();
 
         public List<Employee> Get()
         {
